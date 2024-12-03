@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta  http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta  http-equiv="Content-Security-Policy" content="script-src self' 'unsafe-eval'  'unsafe-inline';">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title>Event Invitation</title>
+	</head>
+	<body>
+		<div  class="invitation">
+			<h1>You're Invited!</h1>
+ 			<h2>[Event Name]</h2>
+			<p>Date: [ Event Date]</p>
+ 			<p>Time: [Event Time]</p>
+			<p>Location: [Event Venue]</p>
+            <section class="event-details">
+                <p>Join us for an unforgettable event! Enjoy fun activities, great food, and an amazing atmosphere. Don't miss out!</p>
+            </section>
+    
+            <section class="rsvp-form">
+                <h3>RSVP Now</h3>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+    
+                    <button type="submit">Submit RSVP</button>
+                </form>
+            </section>
+    
+            <footer>
+                <a href="more-info.html" class="learn-more">Learn More</a>
+            </footer>
+        <div>
+             <link rel="stylesheet" href="style.css">
+        </div>
+	</body>
+	</html>
+	
